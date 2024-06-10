@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(0, 0, 33);
+    color: white ;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* margin-top: 30px; */
+    height:80px;
+    background-color: rgb(18, 18, 62);
+    font-size: 20px;
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+}
+nav ul li{
+    list-style:none;
+    margin: 0 23px;
+    cursor: pointer;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+nav ul li a:hover{
+    color: rgb(153, 153, 226);
+}
+.left{
+    font-size: 1.5rem;
+}
+.firstsection{
+    display: flex;
+    margin: 80px 0px;
+    align-items: center;
+    justify-content: space-around;
+}
+.firstsection>div{
+    width:30%;
+}
+.leftsection{
+font-size: 3rem;
+
+}
+.rightsection img{
+    width: 80%;
+    border-radius: 30px;
+    
+}
+.myname{
+    color: rgb(170, 107, 228);
+}
+#element{
+    color: rgb(170, 107, 228);
+}
+
+.secondSection{
+    max-width: 80vw;
+    margin: auto;    
+    margin-top: 20px;
+}
+.secondSection h1{
+    color: rgb(153, 153, 226);
+}
+.btn{
+    font-size: 20px;
+    margin-right: 20px;
+    margin-top: 30px;
+}
+
+.btn a{
+    text-decoration: none;
+    color: black;
+}
+.btn a:hover{
+    background-color: rgb(0, 0, 33);
+    color: white;
+}
+@media(width <=430px){
+    nav ul{
+        display: none;
+        
+    } 
+@media (width<=450px) {
+    .left{
+        font-size: 2rem;
+    }
+}
+
+}
+@media(width<=350px){
+    .leftsection{
+        font-size: 1.2rem;
+        text-align: center;
+        justify-content: center;
+        margin-top: -20px;   
+}}
+
+@media (width<=450px){
+    .rightsection img{
+    width: 100px;
+    height: 100px;
+    margin-top: 20px;
+   margin-left: 30px;
+   margin-bottom: 20px;    
+    
+} 
+.firstsection {
+    flex-direction: column;
+    margin: 0px 0px;
+}
+.firstsection>div{
+    width:80%;
+
+}
+
+}

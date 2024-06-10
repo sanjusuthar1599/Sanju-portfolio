@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sanju - Developer portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="left">Sanju portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Project</a></li>
+                    <li><a href="#">Contect Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="firstsection">
+            <div class="leftsection">
+                Hi, My name is <span class="myname">Sanjay Suthar</span>
+                <div>and I m a passionate <span class="mydev"></span></div> 
+                <span id="element"></span>
+                <div class="btn">
+                    <button class="btn" onclick="ram()" ><a href="./SANJAY_RESUME.pdf" download>Download Resume </a>
+                    </button>
+                </div>
+            </div>
+            <div class="rightsection">
+                <img src="mee.jpeg" alt="">
+            </div>
+        </section>
+   <hr>
+        <section class="secondSection">
+            <span> I started coding in 2022 From Fullstack Developer journey and 3 Year</span>
+            <h1>Work Experience</h1>
+        </section>
+    
+        
+
+    </main>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js" ></script>
+    
+
+    <script>
+        //first section//
+        var typed = new Typed('#element',{
+            strings:['Stock Market Treader.','Web Developer.','Full Stack Developer.', ],
+            typeSpeed:50,
+        });
+
+            
+    </script> 
+    
+</body>
+</html>
